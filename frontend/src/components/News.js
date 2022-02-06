@@ -8,12 +8,13 @@ const News = ({ new_ele }) => {
             <a href={`/news/${new_ele.name}`}>
                 <Card.Img src={new_ele.image} variant='top' className='new-image' />
             </a>
-            <Card.Body>
-                <a href={`/news/${new_ele.name}`}>
+            <Card.Body className='new-body'>
+                <a href={`/news/${new_ele.name}`} className='non-textdecoration'>
                     <div className="new-name">
                         <strong>{new_ele.description}</strong>
                     </div>
                 </a>
+                <div className='new-date'>{new_ele.date}</div>
             </Card.Body>
         </Card>
     )

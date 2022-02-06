@@ -1,7 +1,6 @@
 #new-list{
     width: 80% ;
-    margin: 50px 20px 50px 100px;
-    padding: 50px 30px;
+    margin: 100px 20px 0px 150px;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
@@ -14,16 +13,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 10px;
-    border-color:black;
+    padding: 10px;
+    height: 280px;
+    width: 350px;
+    margin-bottom: 10px;
 }
 .new-image{
     height: 200px;
     width: 350px;
 }
+.new-body{
+    width: 350px;
+    height: 80px;
+    border: 1px solid #979799;
+}
 .new-name{
     font-size: 14px;
     color: #2f2f2f;
-    /* cursor: pointer; */
-    width: 350px;
+    width: 330px;
+    padding: 10px;
+}
+.new-date{
+    font-size: 12px;
+    color: #979799;
+    padding: 5px;
+}
+a.non-textdecoration{
+    text-decoration: none;
 }
